@@ -2,9 +2,17 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<div class="welcome text-center padded">
-  <h1>Welcome to Middleman</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p>
-</div>
+<%= partial "banner" %>
+<%= partial "feature" %>
+<%= partial "card" %>
+
+<div id="newsletter" class="text-center padded-bottom">
+  <h2 class="section-header">Get news from us</h2>
+  <p>Leave us your mail and get stylus news</p>
+  <form class="form-inline">
+    <input placeholder="bob@gmail.com" class="form-control" type="email">
+    <input value="Subscribe" class="btn btn-primary btn-bordered btn-bordered-primary" type="submit">
+  </form>
+  </div>
+
+<%= partial "map" %>
