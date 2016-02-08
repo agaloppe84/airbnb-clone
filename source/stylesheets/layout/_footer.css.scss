@@ -1,28 +1,29 @@
-#footer {
+#footer{
   background: #333333;
   padding: 30px 0;
   color: #CCCCCC;
-}
-#footer p {
-  margin-top: 17px;
-}
-#footer ul {
-  margin-top: 10px;
-}
-#footer a {
-  color: #CCCCCC;
-  font-size: 30px;
-  letter-spacing: 20px;
-  transition: color 0.5s ease;
-}
-#footer a:hover{
-  color: yellow;
+  p{
+    margin-top: 17px;
+  }
+  ul{
+    margin-top: 10px;
+  }
+  a{
+    color: #CCCCCC;
+    font-size: 30px;
+    letter-spacing: 20px;
+    transition: color 0.5s ease;
+    &:hover{
+      color: $yellow;
+    }
+  }
+  .fa{
+    text-decoration: none;
+    &:hover{
+      text-decoration: none;
+    }
+  }
 }
 
-#footer .fa{
-  text-decoration: none;
-}
 
-#footer .fa:hover {
-  text-decoration: none;
-}
+
